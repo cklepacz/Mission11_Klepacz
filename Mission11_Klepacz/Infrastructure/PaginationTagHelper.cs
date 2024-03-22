@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.ViewFeatures;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 using Mission11_Klepacz.Models.ViewModels;
 
+//Create personal tags for pagination
 namespace Mission11_Klepacz.Infrastructure
 {
     [HtmlTargetElement("div", Attributes = "page-model")]

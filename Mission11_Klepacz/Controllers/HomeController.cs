@@ -14,6 +14,7 @@ namespace Mission11_Klepacz.Controllers
         }
         public IActionResult Index(int pageNum)
         {
+            //List 10 items per page
             int pageSize = 10;
             var book = new BooksListViewModel
             {

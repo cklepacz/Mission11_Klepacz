@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mission11_Klepacz.Models;
 
+//Context file
 public partial class BookstoreContext : DbContext
 {
     public BookstoreContext()

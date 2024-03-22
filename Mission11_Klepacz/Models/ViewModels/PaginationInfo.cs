@@ -1,5 +1,6 @@
 ﻿namespace Mission11_Klepacz.Models.ViewModels
 {
+    //Model for Pagination
     public class PaginationInfo
     {
         public int TotalItems { get; set; }

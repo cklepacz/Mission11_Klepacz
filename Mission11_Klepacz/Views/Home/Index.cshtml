@@ -5,10 +5,14 @@
 
 @model BooksListViewModel
 
+<h1 style="text-align: center">Welcome to Amazon 2.0</h1>
+
+<!--List out each item-->
 @foreach (Book b in Model.Books)
 {
     <partial name="BookInfo" model="b" />
 }
 
+<!--Dynamically create tabs to cycle through the different pages with items; give the tags some CSS-->
 <div page-model="@Model.PaginationInfo" page-action="Index" page-class-enabled="true" page-class="btn" page-class-normal="btn-outline-dark"
      page-class-selected="btn-primary" class="btn-group pull-right m1"></div>
